@@ -149,27 +149,19 @@ input::placeholder {
 }
 
 .icons_item::before {
-  font-family: "Font Awsome 5 Free";
+  font-family: "Font Awesome 5 Free";
   color: var(--accent-color);
   font-weight: 700;
   font-size: 2rem;
   content: "\f3d1";
+  padding-bottom: 10px;
 }
 .icons_item:first-child::before {
-  content: "B";
+  content: "\f0c2";
 }
 .icons_item:last-child::before {
-  content: "C";
+  content: "\f2f2";
 }
-/*Ikony w części głównej
-
-Pseudoelementy te muszą mieć ustawiony font-weight na bold, 
-font-family na "Font Awesome 5 Free" i content kolejno na:
-
-"\f0c2"
-"\f3d1"
-"\f2f2"
-*/
 
 
 
